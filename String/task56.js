@@ -16,7 +16,7 @@ console.log(Vowels(e))
 //regular expression
 
 const cVowels = (str)=> {
-    const m = s.match(/[aeiou]/gi);
+    const m = str.match(/[aeiou]/gi);
     return m ? m.length : 0;
 }
 const s = "my name is uzair";
