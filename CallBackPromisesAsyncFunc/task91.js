@@ -34,3 +34,10 @@ loginUser("admin@gmail.com", "12345")
   .catch((err) => {
     console.log(err);
   });
+
+
+//   async function hello() {
+//   return "Hi";
+// }
+
+// console.log(hello());
